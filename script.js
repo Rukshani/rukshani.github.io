@@ -51,10 +51,10 @@ $(document).ready(function() {
       delay: 200
     });
   
-    ScrollReveal().reveal(".header a, .profile-photo, .about-content, .education", {
+    ScrollReveal().reveal(".header a, .profile-photo, .about-content, .education, .services", {
       origin: "left"
     });
-    ScrollReveal().reveal(".header ul, .profile-text, .about-skills, .experience", {
+    ScrollReveal().reveal(".header ul, .profile-text, .about-skills, .services", {
       origin: "right"
     });
     ScrollReveal().reveal(".project-title, .contact-title", {
